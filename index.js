@@ -13,5 +13,5 @@ katzDeliLine.push(name);
 }
 
 function nowServing(katzDeliLine) {
-  
+  if 
 }
