@@ -12,6 +12,6 @@ katzDeliLine.push(name);
   
 }
 
-function nowServing() {
+function nowServing(katzDeliLine) {
   
 }
