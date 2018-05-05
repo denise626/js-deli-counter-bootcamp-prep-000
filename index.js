@@ -6,7 +6,7 @@ function takeANumber(katzDeli, name) {
 }
  
 function nowServing(katzDeli) {
-  let i = 0;
+  var i = 0;
   while (i < katzDeli.length) {
     i++;
   }
@@ -21,7 +21,7 @@ var personInLine = [];
 
 
 function currentLine(katzDeli) {
-  let i = 0;
+  var i = 0;
   while (i < katzDeli.length) {
     personInLine.push(` `+[i+1]+`. `  + katzDeli[i])
     i++;
